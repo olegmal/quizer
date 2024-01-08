@@ -1,4 +1,4 @@
-from config.settings.base_settings import *  # NOQA
+from config.settings.base import *  # NOQA
 
 SECRET_KEY = "django-insecure-idv$okbx1eu)g+f#_v@_)m=m+g=s49jt=+hq)bvf2etspmkg$5"
 DEBUG = False

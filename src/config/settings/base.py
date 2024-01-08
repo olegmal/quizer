@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "phonenumber_field",
     "accounts",
     "core",
     "quiz",
@@ -66,6 +67,8 @@ TEMPLATES = [
         },
     },
 ]
+
+AUTH_USER_MODEL = "accounts.Customer"
 
 WSGI_APPLICATION = "config.wsgi.application"
 
