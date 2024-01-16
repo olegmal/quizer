@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from rest_framework.fields import CharField
 from rest_framework.serializers import ModelSerializer
 
-from quiz.models import Question, Choice, Quiz
+from quiz.models import Choice, Question, Quiz
 
 
 class CustomerSerializer(ModelSerializer):
